@@ -2,24 +2,24 @@
 ---
 
 // Headers
-$header-heading-color: #80e060;
-$header-bg-color: #0b4033;
-$header-bg-color-secondary: #33400b;
+$header-heading-color: #a260e0;
+$header-bg-color: #0b3540;
+$header-bg-color-secondary: #2d0b40;
 
 // Text
-$section-headings-color: #12752b;
-$body-text-color: #576e53;
-$body-link-color: #90b846;
-$blockquote-text-color: #7d917a;
+$section-headings-color: #2e1275;
+$body-text-color: #535a6e;
+$body-link-color: #7746b8;
+$blockquote-text-color: #7a7e91;
 
 // Code
-$code-bg-color: #f3f6fa;
-$code-text-color: #71a372;
+$code-bg-color: #f8f3fa;
+$code-text-color: #7271a3;
 
 // Borders
-$border-color: #e1f0dc;
-$table-border-color: #eaece9;
-$hr-border-color: #eff1ef;
+$border-color: #e6dcf0;
+$table-border-color: #eae9ec;
+$hr-border-color: #f1eff1;
 
 @import "{{ site.theme }}";
 
