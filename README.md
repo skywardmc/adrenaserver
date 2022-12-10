@@ -21,7 +21,7 @@
 
 This is a Minecraft server modpack focusing on heavily optimizing Fabric and Quilt servers, with as minimal changes to the game as possible.
 
-It's designed to be a "base layer" that you can build off of to make your own super fast modpacks or use by itself.
+It's designed to be a "base layer" that you can embed into your server and help with performance.
 
 > Want to know more information about the modpack? [Check out the website](https://intergrav.github.io/Adrenaserver/) for download links and more!
 
