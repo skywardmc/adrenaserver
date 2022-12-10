@@ -1,0 +1,77 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config/c2me.toml"
+hash = "694a9224e352a6f7c769a1a95b95eca1ae3151c35bc6d0992cee813214e3b8b4"
+
+[[files]]
+file = "config/fastload.properties"
+hash = "68939002351c5387d6576c404146e966d00d41f32bee099e850f05481236f1a2"
+
+[[files]]
+file = "config/ferritecore.mixin.properties"
+hash = "1e0ba1e744212f481d857e2c864104eb8853a825f6557874b739763e208f7e59"
+
+[[files]]
+file = "config/servercore.toml"
+hash = "5a6afda06164f867322007c6a0f94c68d77e5b0ec3c3e3645914fb3b35a8043c"
+
+[[files]]
+file = "mods/c2me-fabric.pw.toml"
+hash = "226439a19abbd3b519203d0c127c6e8d76abc16725da12ecaf323bbb5eaa6afe"
+metafile = true
+
+[[files]]
+file = "mods/fastload.pw.toml"
+hash = "96716d4fb76311add70d40d7cceadd69c7bbde09b1b5db95ab8b0f3d5280b9d5"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "f19e328fe42f91d1b65e244ee5bcf70f1e5305a27278945098ea85af82e05d0d"
+metafile = true
+
+[[files]]
+file = "mods/krypton.pw.toml"
+hash = "219d4425679c60fd2855a6a39a6fccb6db3948dcc57b9da7c20907c855c5bd3d"
+metafile = true
+
+[[files]]
+file = "mods/lazydfu.pw.toml"
+hash = "ea127e8f74006f3a9ce099f9e96adaa3b3f4f281231ece703c4e7f9732137ebd"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "9480f9e11e91eb82ba616c5c622c218d7b7ceff6599a3348d557eb1a1ddd41f9"
+metafile = true
+
+[[files]]
+file = "mods/memoryleakfix.pw.toml"
+hash = "f61810be98ef52436d3355ecfa4354bc47d142cbe9468fbd14415e5bc6d66125"
+metafile = true
+
+[[files]]
+file = "mods/qsl.pw.toml"
+hash = "4ef251bf925c957e46fa3b223933425df85611d4ddf0e7a04949b38783800a65"
+metafile = true
+
+[[files]]
+file = "mods/servercore.pw.toml"
+hash = "c04e7a759cc12522f665a33cadf0fd8f182d1918ea17b7e818fee7575fca9cef"
+metafile = true
+
+[[files]]
+file = "mods/smoothboot-fabric.pw.toml"
+hash = "98bed93269e490532d84cf27cff645a531d0d27a1088816298517e5f1afcd621"
+metafile = true
+
+[[files]]
+file = "mods/starlight.pw.toml"
+hash = "99f9628800ccabd189b9bb28859f01caaf9ad672f247ae875e3eaa5f965f9406"
+metafile = true
+
+[[files]]
+file = "mods/vmp-fabric.pw.toml"
+hash = "636d283fb68d03418346df003b2b264b498856cc29869bbbff865df0620c8166"
+metafile = true

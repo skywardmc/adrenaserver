@@ -1,0 +1,13 @@
+name = "Fastload"
+filename = "Fastload+1.18.2-1.4.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/kCpssoSb/versions/pPHZxvSq/Fastload%2B1.18.2-1.4.1.jar"
+hash-format = "sha1"
+hash = "7ce7894ab8e362c6ea9481d48eb1272843bd72b6"
+
+[update]
+[update.modrinth]
+mod-id = "kCpssoSb"
+version = "pPHZxvSq"
