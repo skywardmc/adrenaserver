@@ -4,8 +4,6 @@
 > **Note**
 > This is an optimization modpack **for servers**! While you *can* technically use this on the client, it really isn't recommended as that's not what this is designed for. If you need to optimize your client, use a modpack like [Adrenaline](https://modrinth.com/modpack/adrenaline), [Simply Optimized](https://modrinth.com/modpack/sop), or [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimized) - do not use this one.
 
-# 🖥️ About
-
 Adrenaserver is a server-side **performance modpack** that attempts to speed up your server, while still looking great. It is meant to be a sort of "base layer" that you can build on top of, or just use by itself. It is designed to have the least mods possible, while keeping good performance improvements. No game-changing mods, none of that. Just speed.
 
 As said above - please use *client-side* performance modpacks for personal use! This is for servers, not players. I have a client-side performance modpack available for use that offers great improvements to framerate and other aspects of the game [here](https://modrinth.com/modpack/adrenaline).
