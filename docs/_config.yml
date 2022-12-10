@@ -1,4 +1,4 @@
-title: Adrenaline
-description: An extremely optimized base layer for your Minecraft modpacks, instances, and really anything.
+title: Adrenaserver
+description: Minimal, base performance layer focusing on heavily optimizing Fabric and Quilt servers. No QOL.
 theme: jekyll-theme-cayman
 show_downloads: true
