@@ -47,9 +47,9 @@ After you have done that, simply move the `mods` folder and `config` folder that
 🧙 Advanced: Use packwiz-installer to install and auto-update on launch
 </summary>
 
-[packwiz-installer](https://github.com/packwiz/packwiz-installer) is a useful tool that lets you automatically install and update a modpack through the `pack.toml` file of that pack.
+### **I can't stress this enough. Before doing any of this, *be sure to have backups of the server*. You do not want any loss of data, probably.**
 
-**Before doing any of this, *be sure to have backups of the server*. You do not want any loss of data, probably.**
+[packwiz-installer](https://github.com/packwiz/packwiz-installer) is a useful tool that lets you automatically install and update a modpack through the `pack.toml` file of that pack.
 
 Some server hosts may let you set a command that runs before the server actually starts. It's called a *pre-launch command*. I can't exactly help if you are using an external server provider as I do not know where they let you do that stuff, you will have to figure that out on your own.
 
