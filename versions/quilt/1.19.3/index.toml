@@ -18,7 +18,7 @@ hash = "5a6afda06164f867322007c6a0f94c68d77e5b0ec3c3e3645914fb3b35a8043c"
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "0334d043294f3ca4f0bfec9d2124aed7ec0e62621f2bf9f17f83eecd43d5ab73"
+hash = "59c604518591548ffc26ec62678dc33eccddf6a9fc80237102ff22391f5b5dca"
 metafile = true
 
 [[files]]
@@ -28,7 +28,7 @@ metafile = true
 
 [[files]]
 file = "mods/fastload.pw.toml"
-hash = "e241e62d3b1cd5ca81da53645b6a1b98f8a5d5488a659f78967570e5810f103a"
+hash = "1c5ea549f7ed98451cbc64128e3816b540bad39ab986a5a38af6afff13f294f4"
 metafile = true
 
 [[files]]
@@ -53,7 +53,7 @@ metafile = true
 
 [[files]]
 file = "mods/memoryleakfix.pw.toml"
-hash = "4716789e4a806c1cabcef27e67150215edb4c3d737e9a87d90f2f615d6c196cd"
+hash = "5b43c0fc6904ad4480c8ed596411c6e24172f8320ccd63de97b4ce2e7e0f90a5"
 metafile = true
 
 [[files]]
@@ -74,9 +74,4 @@ metafile = true
 [[files]]
 file = "mods/starlight.pw.toml"
 hash = "2aeab4f3b0a720ed02f400d9b521f1858474d4f8f7c3577ce916d5aa31fe37e1"
-metafile = true
-
-[[files]]
-file = "mods/vmp-fabric.pw.toml"
-hash = "c918c86f4a007bfebfdf00e3f8ba2d3110578f56c821b9c73bd2b37ad2595755"
 metafile = true

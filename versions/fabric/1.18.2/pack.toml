@@ -1,12 +1,12 @@
 name = "Adrenaserver"
 author = "UltraStorm"
-version = "1.0.0"
+version = "1.0.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "b8c3aa198882b62fec94de4b0fa3a3f3e0bc8624b23a578833d7888740692634"
+hash = "fc46360e5d35cb761e60c7901a26a31444113d81bcacdc4d87a59ecc53868db5"
 
 [versions]
 fabric = "0.14.11"
