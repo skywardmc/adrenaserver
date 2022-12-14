@@ -23,7 +23,7 @@ metafile = true
 
 [[files]]
 file = "mods/fastload.pw.toml"
-hash = "196dc0a8d823f0435fa7fcbed6b7e11c368d83f4f5571c586fac73fe3f829f96"
+hash = "96716d4fb76311add70d40d7cceadd69c7bbde09b1b5db95ab8b0f3d5280b9d5"
 metafile = true
 
 [[files]]
@@ -69,4 +69,9 @@ metafile = true
 [[files]]
 file = "mods/starlight.pw.toml"
 hash = "99f9628800ccabd189b9bb28859f01caaf9ad672f247ae875e3eaa5f965f9406"
+metafile = true
+
+[[files]]
+file = "mods/vmp-fabric.pw.toml"
+hash = "636d283fb68d03418346df003b2b264b498856cc29869bbbff865df0620c8166"
 metafile = true
