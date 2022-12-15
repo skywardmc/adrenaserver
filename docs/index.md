@@ -1,6 +1,9 @@
 > **Warning**
 > 1.16.5 and 1.17.1 Quilt versions are not available as QFAPI isn't available for those versions. I recommend using a later Quilt version (≥1.18.2) or switching to Fabric for those.
 
+> **Warning**
+> Quilt versions may be a little buggier than Fabric versions, and I highly recommend using the Fabric server if you can. They are simply uploaded here for convenience, but will be marked as a beta until they are more stable.
+
 > **Note**
 > This is an optimization modpack **for servers**! While you *can* technically use this on the client, it really isn't recommended as that's not what this is designed for. If you need to optimize your client, use a modpack like [Adrenaline](https://modrinth.com/modpack/adrenaline), [Simply Optimized](https://modrinth.com/modpack/sop), or [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimized) - do not use this one.
 
