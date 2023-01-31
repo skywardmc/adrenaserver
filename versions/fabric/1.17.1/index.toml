@@ -6,7 +6,7 @@ hash = "709456e4a972ffbee248d32221578a85475e07b642cffd3e498389b4211e5ef6"
 
 [[files]]
 file = "config/fastload.properties"
-hash = "68939002351c5387d6576c404146e966d00d41f32bee099e850f05481236f1a2"
+hash = "376e32a1682617f18de5dfb566f09d6cdc9ff4aab9a6626a6b1055d409c85f6a"
 
 [[files]]
 file = "config/ferritecore.mixin.properties"

@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/c2me.toml"
-hash = "694a9224e352a6f7c769a1a95b95eca1ae3151c35bc6d0992cee813214e3b8b4"
+hash = "6cb085452513a1533489b10d3b4bff140b45560a5d69e44eca8e98858d64c5d8"
 
 [[files]]
 file = "config/fastload.properties"
-hash = "68939002351c5387d6576c404146e966d00d41f32bee099e850f05481236f1a2"
+hash = "376e32a1682617f18de5dfb566f09d6cdc9ff4aab9a6626a6b1055d409c85f6a"
 
 [[files]]
 file = "config/ferritecore.mixin.properties"

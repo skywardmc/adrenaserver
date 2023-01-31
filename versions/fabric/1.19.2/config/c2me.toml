@@ -1,6 +1,6 @@
 version = 3
 
-# C2ME Config File (modified for Adrenaline)
+# C2ME Config File (modified for Adrenaserver)
 
 # (Default: 2) Configures the parallelism of global executor
 globalExecutorParallelism = 1
