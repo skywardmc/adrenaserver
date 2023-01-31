@@ -23,7 +23,7 @@ This is a Minecraft server modpack focusing on heavily optimizing Fabric and Qui
 
 It's designed to be a "base layer" that you can embed into your server and help with performance.
 
-> Want to know more information about the modpack? [Check out the website](https://intergrav.github.io/Adrenaserver/) for download links and more!
+> Want to know more information about the modpack? [Check out the Modrinth page](https://modrinth.com/modpack/Adrenaserver/) for download links and more!
 
 ### Built With
 
