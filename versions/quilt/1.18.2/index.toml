@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/c2me.toml"
-hash = "6cb085452513a1533489b10d3b4bff140b45560a5d69e44eca8e98858d64c5d8"
+hash = "b9f6e59580784f1fc6104c64e28f09d00cbfc1a5083604a1f4dbdef8900bb56e"
 
 [[files]]
 file = "config/fastload.properties"
-hash = "376e32a1682617f18de5dfb566f09d6cdc9ff4aab9a6626a6b1055d409c85f6a"
+hash = "addf89dfa11c8ee93e693dd60e24374b7ef46e787c5000cb3de7c82205bd9706"
 
 [[files]]
 file = "config/ferritecore.mixin.properties"
@@ -14,7 +14,7 @@ hash = "1e0ba1e744212f481d857e2c864104eb8853a825f6557874b739763e208f7e59"
 
 [[files]]
 file = "config/servercore.toml"
-hash = "5a6afda06164f867322007c6a0f94c68d77e5b0ec3c3e3645914fb3b35a8043c"
+hash = "e153ea9d116d368afb0c7b2e091972fcbadfd5696573feebd47000a2688e385a"
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
@@ -23,7 +23,7 @@ metafile = true
 
 [[files]]
 file = "mods/fastload.pw.toml"
-hash = "90068106eae53049183a19b523d6b8cc4288b1868dcc94a76b1770064cdabf01"
+hash = "b2f3946270893de11c4d1b22fa401b648ac2807638e3bfe68827a6933725d3eb"
 metafile = true
 
 [[files]]
@@ -73,5 +73,5 @@ metafile = true
 
 [[files]]
 file = "mods/vmp-fabric.pw.toml"
-hash = "6ac9730845d3ccd16d691f3d626cdaa78b95e06a73f98503856f602e4f7cad0e"
+hash = "d94f9ad5bbcda1ed1ac5ee7855db8ea638461c507122ed37689ee9a715aaf838"
 metafile = true
