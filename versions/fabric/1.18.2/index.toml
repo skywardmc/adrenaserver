@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/c2me.toml"
-hash = "b9f6e59580784f1fc6104c64e28f09d00cbfc1a5083604a1f4dbdef8900bb56e"
+hash = "97fc344ecea6039db595715e1c169a80324cb75cec074af7df2b89b3bdaa156c"
 
 [[files]]
 file = "config/fastload.properties"
-hash = "addf89dfa11c8ee93e693dd60e24374b7ef46e787c5000cb3de7c82205bd9706"
+hash = "6e1454a7ef9b7ad494597928f04803db572cccc804027ad4f7f10205bf09bf98"
 
 [[files]]
 file = "config/ferritecore.mixin.properties"
@@ -17,13 +17,21 @@ file = "config/servercore.toml"
 hash = "e153ea9d116d368afb0c7b2e091972fcbadfd5696573feebd47000a2688e385a"
 
 [[files]]
+file = "config/smoothboot.json"
+hash = "c37edec3875da8e561eb60bb7a18dcdce128cc41cfe26261c65a8e942f65d58f"
+
+[[files]]
+file = "config/vmp.properties"
+hash = "0d0549563aca08c87a22a9fd862cc6e7a9906f2d6fca84dcbfa7cbec14dff7e6"
+
+[[files]]
 file = "mods/c2me-fabric.pw.toml"
 hash = "e4bbedd539a469daf66cf45717ccf5b8d2ba454d7e6b865c3a648fb8c4f80a40"
 metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "b22bec45f6ccb86b660ce4434694e7a748478d0beba875aef95dcb1b2457b0ff"
+hash = "268eee36d007dc55ff7abb4e4eff3dc2d6d8007fad18bea53330dffffeee41f5"
 metafile = true
 
 [[files]]
@@ -53,7 +61,7 @@ metafile = true
 
 [[files]]
 file = "mods/memoryleakfix.pw.toml"
-hash = "f61810be98ef52436d3355ecfa4354bc47d142cbe9468fbd14415e5bc6d66125"
+hash = "078836cba69713f4f9381d37fb32eefcfc1f19184878afdfefb14d8611def32b"
 metafile = true
 
 [[files]]
