@@ -1,6 +1,6 @@
 name = "Adrenaserver"
 author = "UltraStorm"
-version = "1.2.2+1.16.5.fabric"
+version = "1.2.3+1.16.5.fabric"
 pack-format = "packwiz:1.1.0"
 
 [index]
@@ -9,5 +9,5 @@ hash-format = "sha256"
 hash = "7500d2d65d6554e8ae0860477abdd4af823a9ca6d422f1ee1238bbadecac2a80"
 
 [versions]
-fabric = "0.14.17"
+fabric = "0.14.19"
 minecraft = "1.16.5"
