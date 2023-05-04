@@ -65,7 +65,7 @@ If you are running this server through a batch file or something like that, you 
 ⭐ Advanced: Install with Superpack
 </summary>
 
-You can use a useful tool by Gaming32 called Superpack to download this modpack's content and extract it to a folder - there doesn't seem to be any documentation yet, but this *is* here if you really want to try it. Here is the [Superpack repository](https://github.com/Gaming32/Superpack). Click [here](https://nightly.link/Gaming32/Superpack/workflows/maven/main/build-jars.zip) to download the latest version of Superpack.
+You can use a useful tool by Gaming32 called Superpack to download this modpack's content and extract it to a folder. Here are the [Superpack releases](https://github.com/Gaming32/Superpack/releases).
 
 *Just a note - I won't be giving support on how to install with this method. Please don't ask.*
 
