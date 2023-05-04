@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/c2me.toml"
-hash = "97fc344ecea6039db595715e1c169a80324cb75cec074af7df2b89b3bdaa156c"
+hash = "45c89b03fc4f9f62225edbd1196e591daf8fbe4170f73346f06cd5bc78f05194"
 
 [[files]]
 file = "config/fastload.properties"
-hash = "6e1454a7ef9b7ad494597928f04803db572cccc804027ad4f7f10205bf09bf98"
+hash = "08c78ab862dbb711eaa56f41bbf4696e3fe7d7c5882e864bdf6586a0e67234a9"
 
 [[files]]
 file = "config/ferritecore.mixin.properties"
@@ -14,7 +14,7 @@ hash = "1e0ba1e744212f481d857e2c864104eb8853a825f6557874b739763e208f7e59"
 
 [[files]]
 file = "config/servercore.toml"
-hash = "e153ea9d116d368afb0c7b2e091972fcbadfd5696573feebd47000a2688e385a"
+hash = "4f5cd08148f87464a0f5e471787fd609a6546b653845954598e5a240b938a32d"
 
 [[files]]
 file = "config/smoothboot.json"
@@ -30,13 +30,18 @@ hash = "b1ff809ec34348860c3a403f3d5210f7386ddcda8f0d19c5ff4533fd22abeb08"
 metafile = true
 
 [[files]]
+file = "mods/chunky.pw.toml"
+hash = "f9ec6aa004b6d82b283db45be18ee04fc61e5a18fc5a736f98bec72f963c5563"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "3631c36fa685ff8b408b83f41cb5ed62d44a10314247a379c20bceaae32ce88b"
+hash = "cdf6e87246a0519d7e6351c4bf2ba4fae17a058ab8470c8d7bcfa52ac3a07e2b"
 metafile = true
 
 [[files]]
 file = "mods/fastload.pw.toml"
-hash = "9ab7092cb7e27bec8bb02d195e8f0c6a207b3f1383da7179a57ebd3328778a24"
+hash = "0e72ac12907f4fb5a499a459cc2c64f9225a0c77ee59e76c9360ff0d3479aea2"
 metafile = true
 
 [[files]]
