@@ -71,6 +71,40 @@ You can use a useful tool by Gaming32 called Superpack to download this modpack'
 
 </details>
 
+After this, I recommend following the post-install guide:
+
+<details>
+<summary>
+✨ Post-install tips and tricks
+</summary>
+
+### Pre-loading chunks
+
+I highly recommend pre-loading your chunks so that you can prevent lag when players generate new ones. Chunky is included in Adrenaserver as of 1.2.4, here are a few basic commands to pre-load with the mod. **Keep in mind that pre-loading can take quite a long time, and you should probably do it when people aren't online**.
+
+Choose the world, replacing `minecraft:overworld` with the corresponding world:
+```markdown
+chunky world minecraft:overworld
+```
+
+Choose the radius to pre-load, replacing 2500 with how much you want to do:
+```markdown
+chunky radius 2500
+```
+
+After choosing the world and the radius, start pre-loading:
+```markdown
+chunky start
+```
+
+### Extra mods
+
+These mods are not included to keep Adrenaserver lightweight and small. However, you may want them:
+- [Spark](https://modrinth.com/mod/spark) for profiling, monitoring and more
+- [No Chat Reports](https://modrinth.com/mod/no-chat-reports) to prevent chat reports
+
+</details>
+
 ## 🔥 Performance
 
 This pack has been designed to enhance server performance by boosting TPS (ticks per second) and reducing MSPT (milliseconds per tick), as well as reducing resource usage. With every update, I work to find new ways to improve the performance through modifications and configurations. If you have any suggestions for mods or other performance-enhancing additions, please feel free to share them on the repository's [issue tracker](https://github.com/intergrav/Adrenaserver/issues). Just be sure that any suggestions do not alter the core functionality of the game.
