@@ -80,7 +80,7 @@ After this, I recommend following the post-install guide:
 
 ### Pre-loading chunks
 
-I highly recommend pre-loading your chunks so that you can prevent lag when players generate new ones. Chunky is included in Adrenaserver as of 1.2.4, here are a few basic commands to pre-load with the mod. **Keep in mind that pre-loading can take quite a long time, and you should probably do it when people aren't online**.
+I highly recommend pre-loading your chunks so that you can prevent lag when players generate new ones. Chunky is included in Adrenaserver as of 1.3.0, here are a few basic commands to pre-load with the mod. **Keep in mind that pre-loading can take quite a long time, and you should probably do it when people aren't online**.
 
 Choose the world, replacing `minecraft:overworld` with the corresponding world:
 ```markdown
