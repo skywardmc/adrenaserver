@@ -80,6 +80,8 @@ After this, I recommend following the post-install guide:
 
 I highly recommend pre-loading your chunks so that you can prevent lag when players generate new ones. Chunky is included in Adrenaserver as of 1.2.4, here are a few basic commands to pre-load with the mod. **Keep in mind that pre-loading can take quite a long time, and you should probably do it when people aren't online**.
 
+ℹ️ You **must** install [Chunky](https://modrinth.com/project/chunky) to do this.
+
 Choose the world, replacing `minecraft:overworld` with the corresponding world:
 ```markdown
 chunky world minecraft:overworld
@@ -99,7 +101,7 @@ chunky start
 
 These mods are not included to keep Adrenaserver lightweight and small. However, you may want them:
 - [Spark](https://modrinth.com/mod/spark) for profiling, monitoring and more
-- [No Chat Reports](https://modrinth.com/mod/no-chat-reports) to prevent chat reports
+- [Simply No Report](https://modrinth.com/mod/simply-no-report) or [No Chat Reports](https://modrinth.com/mod/no-chat-reports) to prevent chat reports
 
 </details>
 
