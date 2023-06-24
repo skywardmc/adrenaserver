@@ -38,6 +38,15 @@ After you have done that, simply move the `mods` folder and `config` folder that
 
 <details>
 <summary>
+⭐ Simple: Install with Superpack
+</summary>
+
+You can use a useful tool by Gaming32 called Superpack to download this modpack's content and extract it to a folder. Here are the [Superpack releases](https://github.com/Gaming32/Superpack/releases).
+
+</details>
+
+<details>
+<summary>
 🧙 Advanced: Use packwiz-installer to install and auto-update on launch
 </summary>
 
@@ -49,7 +58,7 @@ Some server hosts may let you set a command that runs before the server actually
 
 First, you need to install `packwiz-installer-bootstrap` from [here](https://github.com/packwiz/packwiz-installer-bootstrap/releases). After that, move it to the same folder as your server's Fabric loader jar. This will usually be the root of the server.
 
-Change `fabric` to `quilt` in the link if needed. You may also change the MC version of the modpack (available versions only).
+Change `fabric` to `quilt` in the link if needed. You may also change the MC version of the modpack ([available versions only](https://github.com/intergrav/adrenaserver/tree/main/versions)).
 ```
 java -jar packwiz-installer-bootstrap.jar -g -s server https://raw.githack.com/intergrav/Adrenaserver/main/versions/fabric/1.19.2/pack.toml
 ```
@@ -57,17 +66,6 @@ java -jar packwiz-installer-bootstrap.jar -g -s server https://raw.githack.com/i
 If you are running this server through a batch file or something like that, you can add this command before your server's launch command and it should work just fine.
 
 *Having trouble? Join my Discord server and I *may* be able to help you. I'm not the most knowledgable on this stuff however. There's always the [packwiz wiki](https://packwiz.infra.link/tutorials/installing/packwiz-installer/#using-a-modpack-with-a-server) aswell.*
-
-</details>
-
-<details>
-<summary>
-⭐ Advanced: Install with Superpack
-</summary>
-
-You can use a useful tool by Gaming32 called Superpack to download this modpack's content and extract it to a folder. Here are the [Superpack releases](https://github.com/Gaming32/Superpack/releases).
-
-*Just a note - I won't be giving support on how to install with this method. Please don't ask.*
 
 </details>
 
@@ -80,7 +78,7 @@ After this, I recommend following the post-install guide:
 
 ### Pre-loading chunks
 
-I highly recommend pre-loading your chunks so that you can prevent lag when players generate new ones. Chunky is included in Adrenaserver as of 1.3.1, here are a few basic commands to pre-load with the mod. **Keep in mind that pre-loading can take quite a long time, and you should probably do it when people aren't online**.
+I highly recommend pre-loading your chunks so that you can prevent lag when players generate new ones. Chunky is included in Adrenaserver as of 1.2.4, here are a few basic commands to pre-load with the mod. **Keep in mind that pre-loading can take quite a long time, and you should probably do it when people aren't online**.
 
 Choose the world, replacing `minecraft:overworld` with the corresponding world:
 ```markdown
@@ -125,7 +123,7 @@ My goal is to keep Adrenaserver up-to-date with the latest Minecraft releases, p
 
 ## ⚙️ How it works
 
-The pack utilizes a combination of carefully selected optimization mods that have been proven to work well together. These mods have been fine-tuned to provide improved performance over their default settings, and the results can be quite impressive. However, it's important to note that compared to other modpacks, Adrenaserver can be a little more aggressive in its optimizations, and as a result, may occasionally be prone to stability issues. Nonetheless, these instances are rare and the pack has been designed to deliver reliable performance.
+The pack utilizes a combination of carefully selected optimization mods that have been proven to work well together. These mods have been fine-tuned to provide improved performance over their default settings, and the results can be quite impressive. However, it's important to note that compared to other modpacks, Adrenaserver can be a little more aggressive in its optimizations, and as a result, may occasionally be prone to stability issues. Nonetheless, these instances are quite rare and this pack is known to deliver reliable performance.
 
 ## 🐛 Reporting Issues
 
