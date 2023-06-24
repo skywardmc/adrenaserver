@@ -1,27 +1,27 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/c2me.toml"
+file = "config/fabric_loader_dependencies.json"
+hash = "53f04b3f9bb3ef51a236e5050a2cd1a07394bede202e98c5dbe08a9ca81b4a3e"
+
+[[files]]
+file = "config/yosbr/config/c2me.toml"
 hash = "45c89b03fc4f9f62225edbd1196e591daf8fbe4170f73346f06cd5bc78f05194"
 
 [[files]]
-file = "config/fastload.properties"
-hash = "08c78ab862dbb711eaa56f41bbf4696e3fe7d7c5882e864bdf6586a0e67234a9"
-
-[[files]]
-file = "config/ferritecore.mixin.properties"
+file = "config/yosbr/config/ferritecore.mixin.properties"
 hash = "1e0ba1e744212f481d857e2c864104eb8853a825f6557874b739763e208f7e59"
 
 [[files]]
-file = "config/servercore.toml"
+file = "config/yosbr/config/servercore.toml"
 hash = "4f5cd08148f87464a0f5e471787fd609a6546b653845954598e5a240b938a32d"
 
 [[files]]
-file = "config/smoothboot.json"
+file = "config/yosbr/config/smoothboot.json"
 hash = "c37edec3875da8e561eb60bb7a18dcdce128cc41cfe26261c65a8e942f65d58f"
 
 [[files]]
-file = "config/vmp.properties"
+file = "config/yosbr/config/vmp.properties"
 hash = "0d0549563aca08c87a22a9fd862cc6e7a9906f2d6fca84dcbfa7cbec14dff7e6"
 
 [[files]]
@@ -30,18 +30,8 @@ hash = "be694b9cf9d9d2245fb0908c837f129dd9033bfb69ffe49c0e5c9dcecb580a2e"
 metafile = true
 
 [[files]]
-file = "mods/chunky.pw.toml"
-hash = "c176a0f84b0c3c03423e68b988cd43f51a6b1cf13a844574b19e003324533da0"
-metafile = true
-
-[[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "ace3e916242bdfbc9177b8572dd57567b5a1afc6773466d21f464522b3a60981"
-metafile = true
-
-[[files]]
-file = "mods/fastload.pw.toml"
-hash = "0e72ac12907f4fb5a499a459cc2c64f9225a0c77ee59e76c9360ff0d3479aea2"
+hash = "b92a08e1bcd540e972238d9744b2b85df361df4eeaeeaec993be62c33507054a"
 metafile = true
 
 [[files]]
@@ -65,6 +55,11 @@ hash = "b5a0689c8ca4d98adb7dfe35df4bc6a1dceac5c4b792e5fbb0ad5290991e2684"
 metafile = true
 
 [[files]]
+file = "mods/smoothboot-fabric.pw.toml"
+hash = "82312494cc4cb1b914968097ff27733905e6af5dec5829cdbdbc86e5c05b421e"
+metafile = true
+
+[[files]]
 file = "mods/starlight.pw.toml"
 hash = "218f67d6bcaae849582618cd3e5eb1d4cac0fd6045115f64340620300e160c11"
 metafile = true
@@ -72,4 +67,9 @@ metafile = true
 [[files]]
 file = "mods/vmp-fabric.pw.toml"
 hash = "7c3eff18529e48a5a3ba5e73315478fa84f32bf040adca45a37b4ba5a02bccf9"
+metafile = true
+
+[[files]]
+file = "mods/yosbr.pw.toml"
+hash = "6f6334f336a876088431df70e2bba6ac52ca2ddeb73a4880ce88d6954b09af00"
 metafile = true
