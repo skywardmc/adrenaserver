@@ -23,7 +23,7 @@ Adrenaserver is specifically designed for server use and is not recommended for 
 
 ## 📥 Installation guide
 
-Installing Adrenaserver on your server is a bit more complex as compared to a client-side modpack. This is because there are limited options for installing server packs. However, if you have some prior experience, it should still be manageable. Before starting the installation process, make sure you have either a Fabric or Quilt server setup. It is recommended to use a Fabric server as it may be more stable with these mods.
+Installing Adrenaserver on your server is a bit more complex as compared to a client-side modpack. This is because there are limited options for installing server packs. However, if you have some prior experience, it should still be manageable. Before starting the installation process, make sure you have either a Fabric or Quilt server set up.
 
 <details>
 <summary>
@@ -72,9 +72,9 @@ For more information, check out [mcman's docs](https://github.com/ParadigmMC/mcm
 
 [packwiz-installer](https://github.com/packwiz/packwiz-installer) is a useful tool that lets you automatically install and update a modpack through the `pack.toml` file of that pack.
 
-Some server hosts may let you set a command that runs before the server actually starts. It's called a *pre-launch command*. I can't exactly help if you are using an external server provider as I do not know where they let you do that stuff, you will have to figure that out on your own.
+Some server hosts may let you set a command that runs before the server actually starts. It's called a pre-launch command. I can't exactly help if you are using an external server provider as many don't support pre-launch commands or require you to supply your own jar file that will run the command.
 
-First, you need to install `packwiz-installer-bootstrap` from [here](https://github.com/packwiz/packwiz-installer-bootstrap/releases). After that, move it to the same folder as your server's Fabric loader jar. This will usually be the root of the server.
+First, you need to install `packwiz-installer-bootstrap` from [here](https://github.com/packwiz/packwiz-installer-bootstrap/releases). After that, move it to the same folder as your server's Fabric/Quilt loader jar. This will usually be the root of the server.
 
 Change `fabric` to `quilt` in the link if needed. You may also change the MC version of the modpack ([available versions only](https://github.com/intergrav/adrenaserver/tree/main/versions)).
 ```
@@ -83,7 +83,7 @@ java -jar packwiz-installer-bootstrap.jar -g -s server https://raw.githack.com/i
 
 If you are running this server through a batch file or something like that, you can add this command before your server's launch command and it should work just fine.
 
-*Having trouble? Join my Discord server and I *may* be able to help you. I'm not the most knowledgable on this stuff however. There's always the [packwiz wiki](https://packwiz.infra.link/tutorials/installing/packwiz-installer/#using-a-modpack-with-a-server) aswell.*
+*Having trouble? Join my Discord server and I may be able to help you. There's always the [packwiz wiki](https://packwiz.infra.link/tutorials/installing/packwiz-installer/#using-a-modpack-with-a-server) and [packwiz Discord server](https://discord.gg/DcSkRF4) aswell.*
 
 </details>
 
