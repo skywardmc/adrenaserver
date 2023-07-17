@@ -50,11 +50,9 @@ You can use a useful tool by Gaming32 called Superpack to download this modpack'
 ✨ Simple: Install with and use mcman
 </summary>
 
-[mcman](https://github.com/ParadigmMC/mcman) is a tool for managing the mods/plugins/configurations of a minecraft server.
+[mcman](https://github.com/ParadigmMC/mcman) is a tool for managing the mods/plugins/configurations of a Minecraft server.
 
-First, install mcman from [releases](https://github.com/ParadigmMC/mcman/releases).
-
-To import adrenaserver while initializing a server, use this command:
+First, install mcman from [releases](https://github.com/ParadigmMC/mcman/releases). To import Adrenaserver while initializing a server, use this command:
 ```
 mcman init --mrpack mr:adrenaserver
 ```
