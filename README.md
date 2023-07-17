@@ -47,6 +47,24 @@ You can use a useful tool by Gaming32 called Superpack to download this modpack'
 
 <details>
 <summary>
+✨ Simple: Install with and use mcman
+</summary>
+
+[mcman](https://github.com/ParadigmMC/mcman) is a tool for managing the mods/plugins/configurations of a Minecraft server.
+
+First, install mcman from [releases](https://github.com/ParadigmMC/mcman/releases). To import Adrenaserver while initializing a server, use this command:
+```
+mcman init --mrpack mr:adrenaserver
+```
+
+After initializing and importing the mrpack, run `mcman build` to build the server into the `server/` directory, from which you can call `cd server && sh start.sh` or `cd server && call start.bat`
+
+For more information, check out [mcman's docs](https://github.com/ParadigmMC/mcman/blob/main/DOCS.md).
+
+</details>
+
+<details>
+<summary>
 🧙 Advanced: Use packwiz-installer to install and auto-update on launch
 </summary>
 
@@ -73,7 +91,7 @@ After this, I recommend following the post-install guide:
 
 <details>
 <summary>
-✨ Post-install tips and tricks
+⚙ Post-install tips and tricks
 </summary>
 
 ### Pre-loading chunks
