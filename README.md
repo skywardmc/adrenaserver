@@ -61,7 +61,7 @@ mcman init --mrpack mr:adrenaserver
 
 After initializing and importing the mrpack, run `mcman build` to build the server into the `server/` directory, from which you can call `cd server && sh start.sh` or `cd server && call start.bat`
 
-For more information, check out [mcman's docs](https://github.com/ParadigmMC/mcman/blob/main/DOCS.md)
+For more information, check out [mcman's docs](https://github.com/ParadigmMC/mcman/blob/main/DOCS.md).
 
 </details>
 
