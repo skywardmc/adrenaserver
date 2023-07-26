@@ -150,8 +150,8 @@ The pack utilizes a combination of carefully selected optimization mods that hav
 Experiencing bugs, crashes, or other issues? Feel free to open an issue on the [issue tracker](https://github.com/intergrav/Adrenaserver/issues).
 
 ## 🍉 Sponsor
-Need a fast, reliable Minecraft server? Use my code `devin` for 25% off your first month of any MelonCube server, supporting me in the process. Click this image for more information.
+Need a fast, reliable Minecraft server? Use my code `devin` for 25% off your first month of any server from Bisect Hosting, supporting me in the process. Click this banner for more information.
 
-[![MelonCube Image](https://www.meloncube.net/partners/custom-banners/fc383dd6-4bb3-424f-b4fb-f540acb27e8b.png)](https://meloncube.net/devin)
+[![Bisect Hosting Image](https://www.bisecthosting.com/partners/custom-banners/444cf491-d49c-4b9a-8b2d-250593122b7e.webp)](https://www.bisecthosting.com/devin)
 
 > *This description was copied from the [Modrinth page](https://modrinth.com/modpack/adrenaserver). It may not be formatted correctly.*
