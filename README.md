@@ -30,7 +30,7 @@ Installing Adrenaserver on your server is a bit more complex as compared to a cl
 🚀 Simple: Install through launcher, and move to server folder
 </summary>
 
-[Watch this video to learn how to download the modpack with a launcher](https://youtu.be/9-hT8V_wCqw). Make sure you have all the dependencies (linked in the description of the video).
+[Check this documentation learn how to download the modpack with a launcher](https://docs.modrinth.com/docs/modpacks/playing_modpacks/).
 
 After you have done that, simply move the `mods` folder and `config` folder that you have downloaded through the launcher to your Fabric/Quilt server folder.
 
