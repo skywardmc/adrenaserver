@@ -1,13 +1,13 @@
 name = "Adrenaserver"
-author = "UltraStorm"
-version = "1.4.0+1.19.4.fabric"
+author = "getchoo"
+version = "1.4.1+1.19.4.fabric"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "533a59fc05469529e43b4ac1018578c0a8fac3dd27bd035373bf17c57a09b851"
+hash = "16558c35d835c08dfb96d50cdf6d8ac395d8d52dd2ee2de654a664473721e44d"
 
 [versions]
-fabric = "0.14.21"
+fabric = "0.14.22"
 minecraft = "1.19.4"
