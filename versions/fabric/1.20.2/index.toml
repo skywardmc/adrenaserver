@@ -27,12 +27,12 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "62d61fb372bdc57b4c5a3487c4394e8341dd125aee7b7ad8c9cf54b0f72b033f"
+hash = "5e351f182c2aae09834c49d55248703c853d224afb0d4a88502b1e91f16db7d6"
 metafile = true
 
 [[files]]
 file = "mods/ferrite-core.pw.toml"
-hash = "03e174cf691b52da20bd973b955fae6f3720d3d2120f9d6cc1de5fdf3180013c"
+hash = "39a6a39433b1b104bfafafcd60a8171f866daa2ebefffd64df822d0e69288e3a"
 metafile = true
 
 [[files]]
@@ -46,13 +46,18 @@ hash = "ed27ecb297016accc41e9894b6e11d6c46b455211e358afa6218ce629ef56978"
 metafile = true
 
 [[files]]
+file = "mods/modernfix.pw.toml"
+hash = "f6a053554df5a596e3113b7add27bd88c504ff50b8cb8083e8acdc2331a30bba"
+metafile = true
+
+[[files]]
 file = "mods/servercore.pw.toml"
-hash = "17b4cf782db225c145f5c2ababe1042deb0fed021f410d42691829673fa916c3"
+hash = "a7c7e830952f80555b8d98029186f02e7ad5b5a837d6b10d399525022848de74"
 metafile = true
 
 [[files]]
 file = "mods/starlight.pw.toml"
-hash = "0a78a506125c0edc97d2292d26c6eab310106c60a5a4e64d73ff67bb619f5a4c"
+hash = "2b9e4dbe7305540ed0bac103f8ba47a36307a3a194dda91b5886a2caf4712d0a"
 metafile = true
 
 [[files]]
@@ -62,7 +67,7 @@ metafile = true
 
 [[files]]
 file = "mods/vmp-fabric.pw.toml"
-hash = "4acfdcf28a7214490664892807bdb6c2d73b8d09295677e5629e5c896c3f9fbb"
+hash = "1e587181635850dfc74248d085d1356aecbf135c8f41500757a7c2dabe340562"
 metafile = true
 
 [[files]]
