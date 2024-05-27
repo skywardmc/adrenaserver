@@ -47,6 +47,11 @@ hash = "c0daa1b0438a80083fed9145abe9760e6d4b0f5d3f091ea12e893c32072c8899"
 metafile = true
 
 [[files]]
+file = "mods/noisium.pw.toml"
+hash = "4e87ee9b05c48cf4ca532f455de6d21d1c7c6adae8f90f9020d7ca0a159472b9"
+metafile = true
+
+[[files]]
 file = "mods/servercore.pw.toml"
 hash = "09bf4b5fc20ed7900078f886b5a73beb0d4a459ca71b1df1bff7da71efd844a2"
 metafile = true
