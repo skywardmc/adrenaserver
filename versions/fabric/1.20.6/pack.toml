@@ -1,6 +1,6 @@
 name = "Adrenaserver"
 author = "getchoo"
-version = "1.5.0+1.20.6.fabric"
+version = "1.6.0+1.20.6.fabric"
 pack-format = "packwiz:1.1.0"
 
 [index]
