@@ -10,7 +10,7 @@ hash = "4f5cd08148f87464a0f5e471787fd609a6546b653845954598e5a240b938a32d"
 
 [[files]]
 file = "config/yosbr/config/threadtweak.json"
-hash = "c37edec3875da8e561eb60bb7a18dcdce128cc41cfe26261c65a8e942f65d58f"
+hash = "cc52d7f5890d8d743806a04c64faf91d915371a8769ace2700ef4f922913acf6"
 
 [[files]]
 file = "config/yosbr/config/vmp.properties"
