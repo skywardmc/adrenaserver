@@ -174,5 +174,3 @@ Experiencing bugs, crashes, bad performance, or other issues? Feel free to open 
 Need a fast, reliable Minecraft server? Use my code `devin` for 25% off your first month of any server from Bisect Hosting, supporting me in the process. Click this banner for more information.
 
 [![Bisect Hosting Image](https://www.bisecthosting.com/partners/custom-banners/444cf491-d49c-4b9a-8b2d-250593122b7e.webp)](https://www.bisecthosting.com/devin)
-
-> *This description was copied from the [Modrinth page](https://modrinth.com/modpack/adrenaserver). It may not be formatted correctly.*
