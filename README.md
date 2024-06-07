@@ -164,7 +164,7 @@ Adrenaserver is focused strictly on optimization, and does not add any additiona
 
 ### 🔧 Minimally modify
 
-My goal is to keep Adrenaserver up-to-date with the latest Minecraft releases, providing tested builds as soon as possible. Although the maintenance of the pack is solely done by me, I will make every effort to release updates promptly. However, please note that there may be some delays due to my limited time and motivation.
+I aim to keep parity with the Vanilla game pretty high, I only break Vanilla parity when it's something that I don't expect to affect anyone and that change gives a reasonable boost in performance. This ensures that things like your redstone builds or farms shouldn't be affected in any way.
 
 # 🐛 How to Report Issues
 
