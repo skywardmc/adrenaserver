@@ -5,7 +5,7 @@
   <br />
   <br />
   <p align="center">
-    Minimal, base performance layer focusing on heavily optimizing Fabric and Quilt servers. No QOL.
+    Lightweight and fast performance modpack for servers
     <br />
     <!---<a href="https://github.com/intergrav/Adrenaline/wiki"><strong>Explore the docs »</strong></a>
     <br />-->
@@ -17,58 +17,88 @@
   <a href="https://gitpod.io/from-referrer/"><img src="https://raw.githubusercontent.com/intergrav/devins-badges/v2/assets/compact/supported/gitpod_vector.svg" alt="Ready for Gitpod" height="36"></a>
 </div>
 
+> Adrenaserver is specifically designed for server use and is not recommended for personal, client-side use. If you are looking to improve your game performance, I suggest using my client-side performance modpack, [Adrenaline](https://modrinth.com/modpack/adrenaline), which can offer significant improvements to framerate and other gameplay aspects.
+
 Adrenaserver is a performance-focused modpack designed specifically for server-side use. It aims to boost the performance of your server with a minimal number of mods that enhance speed without altering the core gameplay. This modpack is intended to serve as a foundation for further customization or can be used as is for a streamlined and optimized server experience.
 
-Adrenaserver is specifically designed for server use and is not recommended for personal, client-side use. If you are looking to improve your game performance, I suggest using my client-side performance modpack, [Adrenaline](https://modrinth.com/modpack/adrenaline), which can offer significant improvements to framerate and other gameplay aspects.
+# 📥 Installation guide
 
-## 📥 Installation guide
-
-Installing Adrenaserver on your server is a bit more complex as compared to a client-side modpack. This is because there are limited options for installing server packs. However, if you have some prior experience, it should still be manageable. Before starting the installation process, make sure you have either a Fabric or Quilt server set up.
+There are various ways to install and manage Modrinth modpacks with a server.
 
 <details>
 <summary>
-🚀 Simple: Install through launcher, and move to server folder
+📦 Install using mrpack-install
 </summary>
 
-[Check this documentation learn how to download the modpack with a launcher](https://docs.modrinth.com/docs/modpacks/playing_modpacks/).
+Download `mrpack-install` through [GitHub releases](https://github.com/nothub/mrpack-install/releases) (or your distro's package if it has one) and take a look at the commands on the [README](https://github.com/nothub/mrpack-install). In Adrenaserver's case, to install in your server you would run:
 
-After you have done that, simply move the `mods` folder and `config` folder that you have downloaded through the launcher to your Fabric/Quilt server folder.
-
-</details>
-
-<details>
-<summary>
-⭐ Simple: Install with Superpack
-</summary>
-
-You can use a useful tool by Gaming32 called Superpack to download this modpack's content and extract it to a folder. Here are the [Superpack releases](https://github.com/Gaming32/Superpack/releases).
-
-</details>
-
-<details>
-<summary>
-✨ Simple: Install with and use mcman
-</summary>
-
-[mcman](https://github.com/ParadigmMC/mcman) is a tool for managing the mods/plugins/configurations of a Minecraft server.
-
-First, install mcman from [releases](https://github.com/ParadigmMC/mcman/releases). To import Adrenaserver while initializing a server, use this command:
+```sh
+mrpack-install adrenaserver [optional version number]
 ```
+
+</details>
+
+<details>
+<summary>
+🐋 Install using Docker Compose
+</summary>
+
+> It may be a good idea to have some knowledge on using Docker before doing this.
+
+1. Make sure you have Docker Engine installed properly according to the [Docker docs](https://docs.docker.com/engine/install)
+2. Create a new directory
+3. Place the contents below in a file called `docker-compose.yml`. This Compose file also contains some other server tweaks meant for performance, such as disabling `sync-chunk-writes`, reducing render and simulation distance, and more
+4. Run `docker compose up -d` in that directory
+
+For any other information, you can read through the [Docker Minecraft Server documentation](https://docker-minecraft-server.readthedocs.io).
+
+```yaml
+services:
+  mc:
+    image: itzg/minecraft-server
+    tty: true
+    stdin_open: true
+    ports:
+      - "25565:25565"
+    environment:
+      EULA: "TRUE"
+      # Adrenaserver and other mods
+      MOD_PLATFORM: MODRINTH
+      MODRINTH_DOWNLOAD_DEPENDENCIES: required
+      MODRINTH_MODPACK: adrenaserver # this installs the latest version of Adrenaserver, you can also use a specific MR link to a version
+      MODRINTH_PROJECTS: spark, chunky # comma separated list of extra mods
+      # Server properties
+      VIEW_DISTANCE: 8
+      SIMULATION_DISTANCE: 5
+      SYNC_CHUNK_WRITES: false
+    volumes:
+      # Attach the relative directory 'data' to the container's /data path
+      - ./data:/data
+```
+
+</details>
+
+<details>
+<summary>
+✨ Install using mcman
+</summary>
+
+[mcman](https://github.com/ParadigmMC/mcman) is a tool for managing the mods/plugins/configurations of a Minecraft server. First, install mcman from [releases](https://github.com/ParadigmMC/mcman/releases). To import Adrenaserver while initializing a server, use this command:
+
+```sh
 mcman init --mrpack mr:adrenaserver
 ```
 
-After initializing and importing the mrpack, run `mcman build` to build the server into the `server/` directory, from which you can call `cd server && sh start.sh` or `cd server && call start.bat`
-
-For more information, check out [mcman's docs](https://github.com/ParadigmMC/mcman/blob/main/DOCS.md).
+After initializing and importing the mrpack, run `mcman build` to build the server into the `server/` directory, from which you can call `cd server && sh start.sh` or `cd server && call start.bat`. For more information, check out [mcman's docs](https://github.com/ParadigmMC/mcman/blob/main/DOCS.md).
 
 </details>
 
 <details>
 <summary>
-🧙 Advanced: Use packwiz-installer to install and auto-update on launch
+🧙 Install using packwiz-installer
 </summary>
 
-### **I can't stress this enough. Before doing any of this, *be sure to have backups of the server*. You do not want any possible loss of data.**
+> Before doing any of this, be sure to have a backup of the server in case anything goes wrong.
 
 [packwiz-installer](https://github.com/packwiz/packwiz-installer) is a useful tool that lets you automatically install and update a modpack through the `pack.toml` file of that pack.
 
@@ -77,13 +107,14 @@ Some server hosts may let you set a command that runs before the server actually
 First, you need to install `packwiz-installer-bootstrap` from [here](https://github.com/packwiz/packwiz-installer-bootstrap/releases). After that, move it to the same folder as your server's Fabric/Quilt loader jar. This will usually be the root of the server.
 
 Change `fabric` to `quilt` in the link if needed. You may also change the MC version of the modpack ([available versions only](https://github.com/intergrav/adrenaserver/tree/main/versions)).
-```
-java -jar packwiz-installer-bootstrap.jar -g -s server https://raw.githack.com/intergrav/Adrenaserver/main/versions/fabric/1.19.2/pack.toml
+
+```sh
+java -jar packwiz-installer-bootstrap.jar -g -s server https://raw.githack.com/intergrav/Adrenaserver/main/versions/fabric/1.20.6/pack.toml
 ```
 
-If you are running this server through a batch file or something like that, you can add this command before your server's launch command and it should work just fine.
+If you are running this server through a batch file or shell script, you can add this command before your server's launch command and it should work just fine.
 
-*Having trouble? Join my Discord server and I may be able to help you. There's always the [packwiz wiki](https://packwiz.infra.link/tutorials/installing/packwiz-installer/#using-a-modpack-with-a-server) and [packwiz Discord server](https://discord.gg/DcSkRF4) aswell.*
+*Having trouble? Check out the [packwiz wiki](https://packwiz.infra.link/tutorials/installing/packwiz-installer/#using-a-modpack-with-a-server) and, if that doesn't help, ask in the [packwiz Discord server](https://discord.gg/DcSkRF4).*
 
 </details>
 
@@ -96,60 +127,50 @@ After this, I recommend following the post-install guide:
 
 ### Pre-loading chunks
 
-I highly recommend pre-loading your chunks so that you can prevent lag when players generate new ones. Chunky is included in Adrenaserver as of 1.2.4, here are a few basic commands to pre-load with the mod. **Keep in mind that pre-loading can take quite a long time, and you should probably do it when people aren't online**.
+> You must install [Chunky](https://modrinth.com/project/chunky) to do this.
 
-ℹ️ You **must** install [Chunky](https://modrinth.com/project/chunky) to do this.
+I highly recommend pre-loading your chunks so that you can prevent lag when players generate new ones. **Keep in mind that pre-loading can take quite a long time, and you should probably do it when people aren't online**.
 
 Choose the world, replacing `minecraft:overworld` with the corresponding world:
-```markdown
+```sh
 chunky world minecraft:overworld
 ```
 
 Choose the radius to pre-load, replacing 2500 with how much you want to do:
-```markdown
+```sh
 chunky radius 2500
 ```
 
 After choosing the world and the radius, start pre-loading:
-```markdown
+```sh
 chunky start
 ```
 
-### Extra mods
+### Profiling and monitoring
 
-These mods are not included to keep Adrenaserver lightweight and small. However, you may want them:
-- [Spark](https://modrinth.com/mod/spark) for profiling, monitoring and more
-- [Simply No Report](https://modrinth.com/mod/simply-no-report) or [No Chat Reports](https://modrinth.com/mod/no-chat-reports) to prevent chat reports
+You can install and use [Spark](https://modrinth.com/mod/spark) for profiling, monitoring and more.
 
 </details>
 
-## 🔥 Performance
+# 🎯 Goals
 
-This pack has been designed to enhance server performance by boosting TPS (ticks per second) and reducing MSPT (milliseconds per tick), as well as reducing resource usage. With every update, I work to find new ways to improve the performance through modifications and configurations. If you have any suggestions for mods or other performance-enhancing additions, please feel free to share them on the repository's [issue tracker](https://github.com/intergrav/Adrenaserver/issues). Just be sure that any suggestions do not alter the core functionality of the game.
+### 🚀 Improve performance
 
-## 🗄️ Built for servers
+Adrenaserver aims to enhance server performance by keeping TPS at a stable 20 and heavily reducing MSPT, as well as reducing resource usage. If you have any suggestions for mods or other performance-enhancing tweaks, please feel free to share them on the repository's [issue tracker](https://github.com/intergrav/Adrenaserver/issues).
 
-Adrenaserver is specifically tailored for small to medium-sized Minecraft servers. Its main goal is to provide server hosts with a hassle-free solution for boosting their server performance without requiring extensive technical knowledge. Clients who join the server will not need to install any additional mods, as the pack is compatible with vanilla, Fabric, Quilt, and Forge clients. This keeps the server accessible and eliminates the need for players to perform any extra steps before joining.
+### 🪶 Stay lightweight
 
-## ◽ Keeping it simple
+Adrenaserver is focused strictly on optimization, and does not add any additional features and stays lightweight. This makes it an ideal foundation for building your server, particularly for SMP servers and vanilla servers that only require a speed boost, but also other servers that may want to use this as a base. By keeping the focus on optimization, this pack ensures that your server remains stable and performs well without any extra bells and whistles.
 
-Adrenaserver is focused strictly on optimization, and does not add any additional features. This makes it an ideal foundation for building your server, particularly for SMP servers and vanilla servers that only require a speed boost, but also other servers that may want to use this as a base. By keeping the focus on optimization, this pack ensures that your server remains stable and performs well without any extra bells and whistles.
-
-## 🔄️ Updates quickly
+### 🔧 Minimally modify
 
 My goal is to keep Adrenaserver up-to-date with the latest Minecraft releases, providing tested builds as soon as possible. Although the maintenance of the pack is solely done by me, I will make every effort to release updates promptly. However, please note that there may be some delays due to my limited time and motivation.
 
-**➡️ Note:** This does not apply to snapshots most of the time. I do not bother as they can sometimes require lots of maintenance and come out too quickly.
+# 🐛 How to Report Issues
 
-## ⚙️ How it works
+Experiencing bugs, crashes, bad performance, or other issues? Feel free to open an issue on the [issue tracker](https://github.com/intergrav/Adrenaserver/issues). Be sure to include necessary information like your hardware/software (e.g. CPU, modpack version, operating system and distribution) and server information (e.g. usual player count and activities) so that it's easier for us to find issues and resolve them.
 
-The pack utilizes a combination of carefully selected optimization mods that have been proven to work well together. These mods have been fine-tuned to provide improved performance over their default settings, and the results can be quite impressive. However, it's important to note that compared to other modpacks, Adrenaserver can be a little more aggressive in its optimizations, and as a result, may occasionally be prone to stability issues. Nonetheless, these instances are quite rare and this pack is known to deliver reliable performance.
-
-## 🐛 Reporting Issues
-
-Experiencing bugs, crashes, or other issues? Feel free to open an issue on the [issue tracker](https://github.com/intergrav/Adrenaserver/issues).
-
-## 🍉 Sponsor
+# 🍉 Sponsor
 Need a fast, reliable Minecraft server? Use my code `devin` for 25% off your first month of any server from Bisect Hosting, supporting me in the process. Click this banner for more information.
 
 [![Bisect Hosting Image](https://www.bisecthosting.com/partners/custom-banners/444cf491-d49c-4b9a-8b2d-250593122b7e.webp)](https://www.bisecthosting.com/devin)
