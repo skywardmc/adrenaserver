@@ -1,12 +1,12 @@
 name = "Adrenaserver"
 author = "getchoo"
-version = "1.6.0+1.20.6.fabric"
+version = "1.7.0+1.20.6.fabric"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "e0d535778bb9ebfbf7097a2d57b5512be48dfd093ad5b9464ab06b81a4171bba"
+hash = "d9df34b0bcd3177c13d24597e57e9d8b770d99c105ffdda8d1ddd1564d8bad5c"
 
 [versions]
 fabric = "0.15.11"
