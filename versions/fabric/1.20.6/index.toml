@@ -18,12 +18,12 @@ hash = "0d0549563aca08c87a22a9fd862cc6e7a9906f2d6fca84dcbfa7cbec14dff7e6"
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "52f0f7fc78f73a9b7143c57d59e3c5bc39ce5e4e1691382fe8ca6403861a40dc"
+hash = "9af777372a4aebc042ec9f7f0233b0f9e843724f2b9bfc3db47cd9c89eee765a"
 metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "d80ddf72ebc03bb698043968c2b06272fbbbcf45927e67083d19e65f322b1ca9"
+hash = "7da82b621c5d72ff29bc23e28a4aa9702773bfc19dd1d8c12d695cd25b46f7b3"
 metafile = true
 
 [[files]]
@@ -38,22 +38,22 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "8d8efd1b0fdd39724444d3f38573077f82b9f7091376d1c18a52404d7053626c"
+hash = "2600531abea1670221c21edf73d7024cf1285f58bca3a838777f957e5e17f477"
 metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "d3716e8b83ff2044733b4e58ea266cb3f2957f472d08d015abe6a54e425202e4"
+hash = "ce0282aa9a31909cba4c187bbf1ea0df1c0cd6077d21f89130116f6051a8d6ca"
 metafile = true
 
 [[files]]
 file = "mods/noisium.pw.toml"
-hash = "4f05ff13dcf8dca0b031482201fb50d2f3578bdd35a903fa4ebced932923b644"
+hash = "72780c177384d154938817263ea7584850bd360beb3cb00ec6914633220e5500"
 metafile = true
 
 [[files]]
 file = "mods/servercore.pw.toml"
-hash = "6001e7980cae0f3f64f1912e213a97de9124eac0823910306dbf47c7cbf79a10"
+hash = "92d482c7d5c7c82674ce738bfd0d062b53107b7c4a7a8b5de7a9f3efcc731d5c"
 metafile = true
 
 [[files]]

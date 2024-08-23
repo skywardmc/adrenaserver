@@ -1,0 +1,13 @@
+name = "Adrenaserver"
+author = "getchoo"
+version = "1.7.0+1.21.1.fabric"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "8a450289b29b826316fe6b0dfec49fb94f4f7672ac0c08dbb66a1387375fe303"
+
+[versions]
+fabric = "0.16.2"
+minecraft = "1.21.1"
