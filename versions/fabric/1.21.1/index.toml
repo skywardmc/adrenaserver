@@ -1,0 +1,72 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config/yosbr/config/ferritecore.mixin.properties"
+hash = "1e0ba1e744212f481d857e2c864104eb8853a825f6557874b739763e208f7e59"
+
+[[files]]
+file = "config/yosbr/config/servercore.toml"
+hash = "4f5cd08148f87464a0f5e471787fd609a6546b653845954598e5a240b938a32d"
+
+[[files]]
+file = "config/yosbr/config/threadtweak.json"
+hash = "cc52d7f5890d8d743806a04c64faf91d915371a8769ace2700ef4f922913acf6"
+
+[[files]]
+file = "config/yosbr/config/vmp.properties"
+hash = "0d0549563aca08c87a22a9fd862cc6e7a9906f2d6fca84dcbfa7cbec14dff7e6"
+
+[[files]]
+file = "mods/c2me-fabric.pw.toml"
+hash = "7df3b65f1baa251d8fd0f5025a60170da09827989d716bf61d788efca32bc0b2"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "324b9816c2616ae8ccfacb2cf93c2ed0c1ea2218efad38ab02cdaa6f75c1db1b"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "078c828454d8a361baae372b5ee3dc33e5f3573fa19bdac8589b38da9dbc5c03"
+metafile = true
+
+[[files]]
+file = "mods/krypton.pw.toml"
+hash = "4ee72fa3b6d91ccec6ec3420396db368dc5097350ee2bb909af3a65f0446c9d5"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "b3b33c53f8356928f86223f26eaebd7a266d610f8628e5077cda196192b0b7e4"
+metafile = true
+
+[[files]]
+file = "mods/modernfix.pw.toml"
+hash = "f01e3bf3ac19d148390509cc99c2df982439a619701a2a392101a6f4d3c250db"
+metafile = true
+
+[[files]]
+file = "mods/noisium.pw.toml"
+hash = "85984b4af80646c0d92388512daeb1ef5404ec76b83fd0958103b3b38e98fff1"
+metafile = true
+
+[[files]]
+file = "mods/servercore.pw.toml"
+hash = "f632c6f98de8644ad2fa0153ab1211bd9f2751fe84620b894ab5f6f558efaae4"
+metafile = true
+
+[[files]]
+file = "mods/threadtweak.pw.toml"
+hash = "aa9b0a592e0c8cd791e1194455a8569667d5a3f1e8b52a60bef79052474a0db8"
+metafile = true
+
+[[files]]
+file = "mods/vmp-fabric.pw.toml"
+hash = "6448dd2b187041bb7b1da3998c10b43c103e47a125b06230d302d9909be3701c"
+metafile = true
+
+[[files]]
+file = "mods/yosbr.pw.toml"
+hash = "6f6334f336a876088431df70e2bba6ac52ca2ddeb73a4880ce88d6954b09af00"
+metafile = true
