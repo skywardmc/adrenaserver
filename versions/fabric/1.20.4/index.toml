@@ -18,7 +18,7 @@ hash = "0d0549563aca08c87a22a9fd862cc6e7a9906f2d6fca84dcbfa7cbec14dff7e6"
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "e2c268027d63e997ef750bcbc76e9ee29c775b7121a0be28a121bc4f332a7092"
+hash = "f4890f49a04d3544634ec7a4a5d6aa31a3c3cd10d1c68db18d38a74a764bbfb7"
 metafile = true
 
 [[files]]
@@ -48,7 +48,7 @@ metafile = true
 
 [[files]]
 file = "mods/noisium.pw.toml"
-hash = "4e87ee9b05c48cf4ca532f455de6d21d1c7c6adae8f90f9020d7ca0a159472b9"
+hash = "0b50b48fce70744799779030bdba3bd5716e267e16b693fb3ca0c470d5a7ac28"
 metafile = true
 
 [[files]]
