@@ -1,3 +1,10 @@
+> ### ⚠️ Adrenaserver has been moved!
+> 
+> Adrenaserver has been merged into [Adrenaline](https://github.com/skywardmc/adrenaline) to make it more simple and easier to maintain. If you are using Adrenaserver, it is recommended that you migrate your server to use Adrenaline so that you can continue receiving updates. You can learn how to install Adrenaline in it's description.
+
+<details>
+<summary>Archived description</summary>
+
 <div align="center">
   <a href="https://github.com/intergrav/Adrenaserver">
     <img src="https://raw.githubusercontent.com/intergrav/Branding/main/adrenaserver/adrenaserver_text_256h.png" alt="Logo" height="40">
